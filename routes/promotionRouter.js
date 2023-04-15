@@ -1,9 +1,9 @@
 const express = require("express");
-const promotionRouter = express.Router();
 const authenticate = require("../authenticate");
 const Promotion = require("../models/promotion");
-
 const cors = require("./cors");
+
+const promotionRouter = express.Router();
 
 promotionRouter
   .route("/")
